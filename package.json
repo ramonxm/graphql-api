@@ -1,0 +1,10 @@
+{
+  "name": "graphql-api",
+  "version": "1.0.0",
+  "description": "A simple API with GraphQL, Apollo Server, MongoDB and Mongoose",
+  "main": "index.js",
+  "repository": "git@github.com:ramonxm/graphql-api.git",
+  "author": "Ramon <ramon1234rxm@gmail.com>",
+  "license": "MIT",
+  "private": false
+}
