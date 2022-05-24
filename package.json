@@ -2,9 +2,21 @@
   "name": "graphql-api",
   "version": "1.0.0",
   "description": "A simple API with GraphQL, Apollo Server, MongoDB and Mongoose",
-  "main": "index.js",
+  "main": "src/index.ts",
   "repository": "git@github.com:ramonxm/graphql-api.git",
   "author": "Ramon <ramon1234rxm@gmail.com>",
   "license": "MIT",
-  "private": false
+  "private": false,
+  "scripts": {
+    "dev": "npx nodemon --exec ts-node --files src/index.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.35",
+    "@typescript-eslint/eslint-plugin": "^5.26.0",
+    "@typescript-eslint/parser": "^5.26.0",
+    "eslint": "^8.16.0",
+    "nodemon": "^2.0.16",
+    "ts-node": "^10.8.0",
+    "typescript": "^4.6.4"
+  }
 }
