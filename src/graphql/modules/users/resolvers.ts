@@ -1,6 +1,9 @@
 import { User } from '../../../models/User';
 
 export const resolvers = {
+  User: {
+    fullName: user => `${user.firstName} ${user.lastName}`,
+  },
   Query: {
     users: async () => await User.find(),
     user: async (_, { id }) => await User.findById(id),
